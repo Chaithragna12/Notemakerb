@@ -16,7 +16,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: "http://localhost:5500",
+    origin: "https://mern-notemaker.netlify.app",
 
     credentials: true
   })
