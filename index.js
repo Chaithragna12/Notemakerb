@@ -21,6 +21,7 @@ app.use(
     credentials: true
   })
 );
+app.set("trust proxy", 1);
 app.use(
   session({
     secret: process.env.SESSION_SECRET,
