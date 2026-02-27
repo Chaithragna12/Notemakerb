@@ -31,8 +31,8 @@ app.use(
     }),
     cookie: {
       httpOnly: true,
-      secure: false,   // MUST be false on localhost
-      sameSite: "lax"
+      secure: true,   // MUST be false on localhost
+      sameSite: "none"
     }
   })
 );
